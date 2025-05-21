@@ -1,3 +1,9 @@
+
+# Dados grandes (não versionar)
+data/**/*.csv
+!data/raw/checksums.csv
+data/**/*.xlsx
+figures/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,3 +178,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+!data/raw/checksums.csv
+!data/raw/checksums.csv
